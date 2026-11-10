@@ -1,0 +1,21 @@
+# =============================================================================
+# Read-only HTTP API container (serves the PostgreSQL `api` schema to React
+# Native and Firebase Hosting rewrites on Cloud Run).
+# =============================================================================
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PORT=8080
+
+RUN pip install --no-compile "psycopg[binary]>=3.1,<4" \
+    && useradd --create-home --uid 10002 apiuser
+
+WORKDIR /app
+COPY api_server.py ./api_server.py
+
+USER apiuser
+EXPOSE 8080
+CMD ["python", "/app/api_server.py"]
+

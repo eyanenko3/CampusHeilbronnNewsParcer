@@ -1,0 +1,91 @@
+# =============================================================================
+# Local & Production Docker Compose Stack
+# -----------------------------------------------------------------------------
+# Starts the full architecture with a single command:
+#
+#   docker compose up --build
+#
+# Services:
+#   1. postgres -> PostgreSQL 16 relational database
+#   2. migrate  -> Applies database/migrations/*.sql and provisions least-privilege
+#                  DB roles (`chn_scraper` and `chn_api`)
+#   3. parsers  -> Deterministic Python scraper daemon (0 AI cost) writing via
+#                  `ingest.*` SQL functions
+#   4. api      -> Read-only HTTP JSON gateway (`http://localhost:8080/api/v1/events`)
+#                  querying `api.*` SQL views/functions for React Native & Firebase
+# =============================================================================
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-chn_owner}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-chn_owner_dev_pw}
+      POSTGRES_DB: ${POSTGRES_DB:-chn_events}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  migrate:
+    image: postgres:16-alpine
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-chn_owner}:${POSTGRES_PASSWORD:-chn_owner_dev_pw}@postgres:5432/${POSTGRES_DB:-chn_events}
+      SCRAPER_DB_USER: ${SCRAPER_DB_USER:-chn_scraper}
+      SCRAPER_DB_PASSWORD: ${SCRAPER_DB_PASSWORD:-chn_scraper_dev_pw}
+      API_DB_USER: ${API_DB_USER:-chn_api}
+      API_DB_PASSWORD: ${API_DB_PASSWORD:-chn_api_dev_pw}
+    volumes:
+      - ./database:/database:ro
+    entrypoint: ["/bin/sh", "/database/migrate.sh"]
+    restart: "no"
+
+  parsers:
+    build:
+      context: ./parsers
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    environment:
+      # Connects as the least-privilege scraper user (member of `chn_ingest`)
+      DATABASE_URL: postgresql://${SCRAPER_DB_USER:-chn_scraper}:${SCRAPER_DB_PASSWORD:-chn_scraper_dev_pw}@postgres:5432/${POSTGRES_DB:-chn_events}
+      SCRAPER_USER_AGENT: ${SCRAPER_USER_AGENT:-CampusHeilbronnEventsBot/0.1 (+https://chn.tum.de; student project)}
+      SCRAPER_REQUEST_DELAY_SECONDS: ${SCRAPER_REQUEST_DELAY_SECONDS:-1.5}
+      SCRAPER_REQUEST_TIMEOUT_SECONDS: ${SCRAPER_REQUEST_TIMEOUT_SECONDS:-20.0}
+      SCRAPER_MAX_RETRIES: ${SCRAPER_MAX_RETRIES:-3}
+      SCRAPER_RESPECT_ROBOTS_TXT: ${SCRAPER_RESPECT_ROBOTS_TXT:-true}
+      SCRAPER_ENABLED_PARSERS: ${SCRAPER_ENABLED_PARSERS:-}
+      SCRAPER_DAEMON_TICK_SECONDS: ${SCRAPER_DAEMON_TICK_SECONDS:-60}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+
+  api:
+    build:
+      context: ./database
+      dockerfile: Dockerfile.api
+    restart: unless-stopped
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    environment:
+      # Connects as the least-privilege reader user (member of `chn_reader`)
+      DATABASE_URL: postgresql://${API_DB_USER:-chn_api}:${API_DB_PASSWORD:-chn_api_dev_pw}@postgres:5432/${POSTGRES_DB:-chn_events}
+      PORT: "8080"
+      CORS_ALLOW_ORIGIN: ${CORS_ALLOW_ORIGIN:-*}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    ports:
+      - "${API_PORT:-8080}:8080"
+
+volumes:
+  pgdata:
+

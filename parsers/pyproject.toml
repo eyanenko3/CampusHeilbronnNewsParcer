@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chn-parsers"
+version = "0.1.0"
+description = "Deterministic web scrapers for TUM Campus Heilbronn events"
+readme = "README.md"
+requires-python = ">=3.11"
+# Intentionally tiny dependency tree:
+#   httpx            -> HTTP client
+#   beautifulsoup4   -> HTML parsing (with stdlib html.parser: no C build step)
+#   psycopg[binary]  -> PostgreSQL 3 driver
+dependencies = [
+    "beautifulsoup4>=4.12,<5",
+    "httpx>=0.27,<1",
+    "psycopg[binary]>=3.1,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+chn-parsers = "chn_parsers.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["chn_parsers*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

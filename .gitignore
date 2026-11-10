@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Environment & secrets
+.env
+.env.local
+
+# Firebase
+.firebase/
+firebase-debug.log*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+

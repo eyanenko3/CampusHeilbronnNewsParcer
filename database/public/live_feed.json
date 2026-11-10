@@ -1,0 +1,754 @@
+[
+  {
+    "source": "tum_chn_news",
+    "status": "succeeded",
+    "complete": true,
+    "events_seen": 10,
+    "item_errors": 0,
+    "error_message": null,
+    "events": [
+      {
+        "external_id": "tx-news-1022",
+        "title": "Edge AI in Cars",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/edge-ai-in-cars",
+        "starts_at": "2026-11-05T12:50:51+01:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "How can artificial intelligence (AI) process data directly in a car? Sreelakshmi Rameshan, a doctoral researcher at TUM Campus Heilbronn, is working with Audi to explore how AI models can run quickly, reliably, and energy-efficiently on vehicle hardware. One application is using AI to help emergency responders act faster after a crash.",
+        "description": "How can artificial intelligence (AI) process data directly in a car? Sreelakshmi Rameshan, a doctoral researcher at TUM Campus Heilbronn, is working with Audi to explore how AI models can run quickly, reliably, and energy-efficiently on vehicle hardware. One application is using AI to help emergency responders act faster after a crash.\n\nSensors have joined cylinders, and algorithms are now part of what makes a car run. Today’s cars are computers on wheels. Cameras, radar sensors, and microphones constantly collect information, while AI helps detect pedestrians, monitor driver attentiveness, and interpret voice commands. As vehicles become smarter, one question is becoming increasingly important. Where should all that processing take place?\n\nFor many AI applications today, the answer is: in the cloud. Data is sent to remote servers for processing, and the results are sent back to the vehicle. This approach works well for some services, but it falls short when every millisecond counts. A vehicle that needs to react immediately in a critical situation cannot afford to wait for a network connection.\n\nHow Edge AI Processes Data Without the Cloud\n\nThis challenge is the focus of Sreelakshmi Rameshan’s doctoral research at the Chair of Computer Architecture and Operating Systems, led by Professor Carsten Trinitis at TUM Campus Heilbronn. The young researcher began her doctoral work in May 2026 as an external doctoral candidate at Audi AG. Together with the automaker, she is investigating how to run AI models directly on vehicle hardware so they can operate faster, more efficiently, and more reliably.\n\n“What draws me to this topic is the chance to tackle academic challenges with direct relevance to industry,” Rameshan explains. “It allows me to contribute to future automotive technologies while I’m still working on my doctorate.” She says many AI features in cars today rely on the cloud, which can cause noticeable delays when a model processes data and returns a result. If the connection drops, AI features that rely on cloud processing become temporarily unavailable.\n\nMoving selected functions to the edge of the network eliminates the round trip to the cloud, so response times depend entirely on the vehicle’s own hardware. This keeps latency low and predictable, even in a tunnel or where network coverage is poor. The data also stays in the vehicle, protecting the privacy of drivers and passengers. “My job is to get AI systems running at the edge and make sure they’re optimized and robust,” Rameshan says. “That’s what my dissertation is about.”\n\nHow AI Models Run Reliably on Vehicle Hardware\n\nA vehicle has limited computing power, memory, and power supply. Even so, AI models must produce accurate results in real time. “Our research currently focuses on the limited memory available on vehicle hardware,” Rameshan explains. The models need to be as compact as possible while maintaining performance. Three main techniques for compressing models are quantization, pruning, and knowledge distillation. Safety also matters. An AI feature in a car must work reliably even when it receives noisy or unexpected inputs. The team therefore evaluates robustness and efficiency together. A targeted review of the literature helps Rameshan build on established findings and adapt them to the hardware in the vehicle.\n\nHow Edge AI Can Help Emergency Responders After a Crash\n\n“Working with Audi’s development teams and my supervisor there, Dr. Vahid Hashemi, we agreed to focus on a safety-related application that uses AI to help emergency responders act faster after a crash,” Rameshan explains. Every second counts in an emergency, so this AI feature must run directly in the vehicle and return a result immediately. The first step is to implement the models on the electronic control units (ECUs) already installed in the vehicle so the AI features can run on the hardware Audi uses today.\n\nThe team will then study neuromorphic chips and explore how to integrate them into the existing system. These chips process data directly in memory as events occur, reducing the need to move large volumes of data. This makes them highly energy-efficient. For example, using these chips for a rapid driving maneuver could cut power demand from as much as three kilowatts to about 300 watts.\n\nAt the same time, Rameshan is deepening her understanding of spiking neural networks, a type of model designed for this kind of hardware. The goal is to show how AI features can be integrated into vehicles while preserving accuracy, safety, and energy efficiency so that help can arrive sooner in an emergency.\n\nRameshan’s project shows how much the future of autonomous driving depends on what vehicles can do with their own hardware. If cars can respond quickly and reliably while using a fraction of the energy for complex AI computations, they can save valuable time. In an emergency, those seconds can save lives.",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/Mindshift_Online/Profs_und_Mitarbeitende/tum-campus-heilbronn-magazinbeitrag-Sreelakshmi-Rameshan.png",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "Magazine Article",
+          "AI Competence",
+          "Research"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1020",
+        "title": "HDSC Connects Munich and Heilbronn",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/hdsc-connects-munich-and-heilbronn",
+        "starts_at": "2026-11-04T13:19:05+01:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "The Heilbronn Data Science Center (HDSC) introduced itself at TUM Heilbronn Campus with a scientific symposium. The event focused on collaboration between researchers from Munich and Heilbronn, current projects in artificial intelligence, and the transfer of knowledge to the business community.",
+        "description": "The Heilbronn Data Science Center (HDSC) introduced itself at TUM Heilbronn Campus with a scientific symposium. The event focused on collaboration between researchers from Munich and Heilbronn, current projects in artificial intelligence, and the transfer of knowledge to the business community.\n\nHow can scientific findings from data science be translated into concrete applications? What role does artificial intelligence play in this process? And how can researchers from different disciplines work together to develop new solutions? These questions were the focus of the HDSC symposium at Open Space in Heilbronn which was attended by over 100 guests.\n\nTo kick off the event, Prof. Ali Sunyaev, Vice President TUM Campus Heilbronn and Center Director of the HDSC, along with Deputy Center Director Prof. Christine Eckert, presented the vision, goals, and research priorities of the new center. The HDSC aims to strengthen data science research at TUM Campus Heilbronn, pool scientific expertise, and promote collaboration with industry. Ali Sunyaev is certain: “This is where the magic really happens.”\n\nPooling Academic Expertise\n\nUltimately, ten professorships are to be based at the HDSC; six of these have already been filled. In addition, there are four visiting professorships. The first five tandem projects form a central component of the academic collaboration. They bring together researchers from different disciplines to jointly address issues related to AI and data science. The HDSC also creates a center that brings together the expertise of both schools on campus — the TUM School of Management (MGT) and the TUM School of Computation, Information, and Technology (CIT) — under one roof.\n\nIn his opening remarks, Prof. Gerhard Kramer, TUM Vice President for Research and Innovation, emphasized the special connection between the Heilbronn and Munich campuses. The goal, he said, is to connect researchers and create the conditions under which scientific findings can have an impact. The people involved are crucial to this effort, he noted, because they are what turn a center into a community.\n\nFrom Reliable AI to Sustainable Logistics\n\nIn his scientific keynote address, “When AI Misbehaves: Adversarial Attacks and the Quest for Reliable AI,” Prof. Stephan Günnemann, Executive Director of the Munich Data Science Institute (MDSI), addressed the reliability of artificial intelligence. He highlighted three aspects: better understanding AI systems, developing more powerful models, and verifying their reliability through certification processes.\n\nThe diversity of research at the HDSC was subsequently demonstrated during the presentation of the five tandem projects. The topics ranged from sustainability-oriented data processing in global logistics processes and learning, dynamic multi-agent systems to methods for more efficient training of neural models. Moreover the scientists explore the extraction and visualization of rules for compliance with process specifications, and a project that integrates biological data to better understand aging processes and enable trustworthy AI applications.\n\nA Dialogue Between Research and Industry\n\nAn Industry Talk focused on the transfer of research into practice. Moderated by Prof. Chunyang Chen, Andre Bechtold (SAP), Ayse Engel (Schwarz Digits), Dr. Christopher Klatt (Freudenberg Technology Innovation), and TUM Campus Heilbronn professors Paul Hünermund and Ziyue Li discussed the connection between data science research and industrial applications.\n\nIn closing, Prof. Christine Eckert emphasized the Center’s collaborative approach. This also highlighted the HDSC’s central objective: to bring together scientific expertise across locations, advance interdisciplinary research, and provide new impetus for business and society.",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/News/HDSC_Symposium/tum-campus-heilbronn-news-hdsc-symposium.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "News",
+          "AI Competence"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1018",
+        "title": "Patreon: Why Followers Pay for Content",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/why-followers-pay-for-content",
+        "starts_at": "2026-11-03T09:44:09+01:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "For many content creators, reach and advertising revenue have been key pillars of their business model up to now. Platforms like Patreon offer them another way to monetize their content through long-term relationships with their followers. In her latest paper, ‘Turning Followers into Patrons: How Social Media Value Converts Followers into Subscribers,’ Dr. Alida Volkmer from TUM Campus Heilbronn examines how creators can stand out from the crowd and how both sides benefit from this business model.",
+        "description": "For many content creators, reach and advertising revenue have been key pillars of their business model up to now. Platforms like Patreon offer them another way to monetize their content through long-term relationships with their followers. In her latest paper, ‘Turning Followers into Patrons: How Social Media Value Converts Followers into Subscribers,’ Dr. Alida Volkmer from TUM Campus Heilbronn examines how creators can stand out from the crowd and how both sides benefit from this business model.\n\nAlgorithms play a major role in determining what content users see on social media. The result is an endless loop of content consumption, from which little ultimately sticks. However, this function can also be performed by another, trustworthy source: “Influencers curate and filter content for their community — some for entertainment, others for information,” explains Alida Volkmer. On Patreon, they don’t do this for free; instead, they receive a monthly payment from their subscribers.\n\nTo overcome the paywall hurdle, a clear focus is crucial: “Successful influencers specialize in a specific target audience and provide them with content that offers real added value. This builds a long-term relationship — followers consciously and financially support the content creators.” This provides an additional source of income alongside brand sponsorships and product placements on their channels.\n\nHow to Turn Followers into Paying Subscribers\n\nAlida Volkmer, together with Jasper David Brüns and Martin Meißner, Professor of Digital Marketing at TUM Campus Heilbronn, as well as Jan Klostermann from the University of Cologne, studied 520 content creators. In their analysis, they examined emotional engagement and functional metrics such as the number of videos shared on YouTube. But what is the connection between YouTube and Patreon? “The initial contact between creators and followers takes place on free social media platforms like YouTube. In the best-case scenario, these followers then move over to the paid platforms — which is also part of the operators’ marketing strategy,” explains Volkmer.\n\nAccording to Volkmer, a deep emotional bond is necessary for followers to take this step. While anger is a highly motivating emotion, it alone is not enough. It turned out that the average of all emotions has a positive effect on followers’ willingness to pay. To analyze the wide range of emotions in comments and likes, the team used DistilBERT, a tool co-developed by TUM Professor Jochen Hartmann. This tool allows emotions to be filtered and connections between videos to be established using the Python programming language. For Volkmer, this was also a key reason for choosing YouTube: “The density of information is very high, and the interactions make it easier for us to establish the context between the videos on the two platforms.”\n\nRelationships with a Dark Side\n\nAccording to Volkmer, before a content creator can become a financially successful influencer, three fundamental questions must be addressed: “Multiple platforms also mean much more content, so it’s a matter of time availability.” Interview studies with content creators have shown that, due to the parasocial relationship, followers expect something in return for their financial support — which can even go as far as emotional blackmail. According to Volkmer, the rigor of content creators is also a decisive factor: “Your presence on social media and on the Patreon page must be authentic. If a small-time creator is actually rich, credibility — and thus financial support — is lost very quickly.”\n\nOverall, most creators on Patreon don’t earn much; only a few exceptions have benefited so far. On the user side, however, there’s an encouraging trend: “Not only emotions, but also timeliness and newsworthiness have a positive influence on the willingness to pay. This contradicts the idea that influencers should stay only within their niche or do what others around them are doing.”",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/Mindshift_Online/Profs_und_Mitarbeitende/tum-campus-heilbronn-newsroom-Volkmer-Alida.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "Magazine Article",
+          "Research"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1016",
+        "title": "TUM Ranks 12th Worldwide Among Employers",
+        "url": "https://chn.tum.de/stories/news/news-detail/tum-ranks-12th-worldwide-among-employers",
+        "starts_at": "2026-10-28T13:32:55+01:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "In the Global University Employability Ranking, TUM ranks 12th worldwide and 4th in Europe. Approximately 16,000 executives from 40 countries evaluated the qualifications of university graduates.",
+        "description": "In the Global University Employability Ranking, TUM ranks 12th worldwide and 4th in Europe. Approximately 16,000 executives from 40 countries evaluated the qualifications of university graduates.\n\nCompanies worldwide consider graduates of the Technical University of Munich (TUM) to be exceptionally well-qualified. This is demonstrated by the “Global University Employability Ranking,” in which TUM has moved up to 12th place. In Europe, it is now ranked fourth, behind the universities of Oxford and Cambridge as well as ETH Zurich.\n\nThe ranking identifies which universities, in the opinion of companies, produce the best graduates. For the current edition, approximately 16,000 managers in 40 countries who recruit internationally were surveyed. They work in various industries and at companies of different sizes. The ranking is compiled annually by the French consulting firm Emerging on behalf of the British magazine “Times Higher Education (THE).”\n\nTUM has been among the world’s best universities for years and currently ranks 12th. Together with the University of Oxford (3rd), the University of Cambridge (4th), and ETH Zurich (9th), it forms the top four in Europe.\n\nRanked 8th in the training of “Digital Leaders”\n\nThe “Digital Leaders in Higher Education” ranking also regularly confirms that TUM does an outstanding job of preparing its students for the digital economy. TUM currently ranks 8th worldwide in this ranking.\n\nThe students themselves are also very satisfied with the conditions of their studies. In the most recent “CHE University Rankings,” TUM received excellent ratings from its students in numerous subjects.\n\nGlobal University Employability Ranking\n\nTUM in Rankings",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/News/Awards_and_Rankings/THE_Rankings/tum-campus-heilbronn-news-rankings.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "News"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1014",
+        "title": "Alexander Fraser named ELLIS Fellow",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/alexander-fraser-named-ellis-fellow",
+        "starts_at": "2026-10-23T17:19:41+02:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "Alexander Fraser, a professor at TUM Campus Heilbronn, has been named a Fellow of the European AI research network ELLIS. The distinction recognizes his research in machine learning and natural language processing and opens up new opportunities for scientific exchange.",
+        "description": "Alexander Fraser, a professor at TUM Campus Heilbronn, has been named a Fellow of the European AI research network ELLIS. The distinction recognizes his research in machine learning and natural language processing and opens up new opportunities for scientific exchange.\n\nAlexander Fraser, Professor of Data Analytics & Statistics at TUM Campus Heilbronn, has achieved a significant milestone: he has been named an ELLIS Fellow. ELLIS stands for “European Laboratory for Learning and Intelligent Systems” and is a pan-European network of excellence in artificial intelligence. Its aim is to secure Europe’s long-term international leadership in AI by connecting leading researchers and establishing a research laboratory spanning multiple locations.\n\n“Being named an ELLIS Fellow is a recognition of my team’s work and my own research in many different areas of machine learning and natural language processing,” says Fraser, says Fraser, who was a Member of the ELLIS Unit Munich before being named a Fellow. Selection criteria include securing European Research Council (ERC) grants, a strong publication record and service to the research community.\n\nLanguage Models for Low-Resource Languages\n\nFraser sees the distinction as recognition of the machine learning research conducted at TUM Campus Heilbronn. He also expects it to further increase his personal visibility in the machine learning community. ELLIS Fellows can host research visits by outstanding PhD students working with other ELLIS members. Fraser himself plans to send a PhD student to Cambridge through the program.\n\nHe also hopes to use his appointment to raise public awareness of his research topic: “In my role as an ELLIS Fellow, I would like to advance my research on high-performance large language models for languages with limited digital data. I would also like to increase public awareness of this important issue.”\n\nMore about ELLIS",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/News/Fraser_ELLIS_Fellow/tum-campus-heilbronn-news-fraser-ellis-fellow.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "News",
+          "Ranking & Awards"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1012",
+        "title": "TUM TALK: Data for Sound Decisions",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/tum-talk-data-for-sound-decisions",
+        "starts_at": "2026-10-22T16:23:41+02:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "How can data help companies make informed decisions in uncertain times? At the seventh TUM Talk at TUM Campus Heilbronn, experts from academia and business discussed strategic data use, the opportunities offered by AI, and the importance of human judgment.",
+        "description": "How can data help companies make informed decisions in uncertain times? At the seventh TUM Talk at TUM Campus Heilbronn, experts from academia and business discussed strategic data use, the opportunities offered by AI, and the importance of human judgment.\n\n“Data as a Compass: From Scientific Insights to Strategic Business Decisions” was the theme of the seventh TUM TALK at Campus Heilbronn of the Technical University of Munich (TUM). TUM President Prof. Thomas F. Hofmann emphasized in his opening remarks: “To succeed in five to ten years’ time, we need to understand data. But translating data into sound decisions requires leadership and management skills.” This set the tone for the evening: As important as data is, it does not constitute a strategy on its own. Using technological capabilities strategically requires the courage to make decisions. Responsibility for those decisions remains with people, even in the age of AI.\n\nThe event was preceded by RETHINK.MITTELSTAND, a conference organized in cooperation with ZEIT Publishing Group, where leading figures from academia, politics, and business discussed the impact of new technologies on tomorrow’s economy. Deep Dive Sessions offered opportunities to explore selected topics in greater depth. In a political discussion with ZEIT journalist Jens Tönnesmann, Dr. Nicole Hoffmeister-Kraut, Baden-Württemberg’s Minister of Economic Affairs, Skilled Crafts and Tourism, and Harry Mergel, Lord Mayor of Heilbronn, contributed political perspectives on the current economic situation.\n\nThe subsequent TUM TALK brought together Prof. Marcel Fratzscher (President of the German Institute for Economic Research, DIW Berlin), Prof. Thomas Hutzschenreuter (Chair of Strategic & International Management, TUM), Claudia Pohlink (Chief Data Officer, FIEGE Logistics), and Markus Frank (Executive Board Member for Digitalization and Logistics, JAKO AG). The panel was moderated by Prof. Jeanne Rubner, TUM Vice President for Global Communication and Public Engagement.\n\nUsing Data for Strategic Decisions\n\nIn his keynote, Marcel Fratzscher outlined three major challenges facing the German economy simultaneously: the changing global economic order, the technological revolution, and social transformation. He argued that these enormous challenges could only be overcome through optimism, creative destruction, supportive policy frameworks, and decisive action to attract skilled workers. He added: “The intelligent use of data can mean the difference between success and failure.”\n\nYet this is precisely where many SMEs encounter obstacles, as Fratzscher explained in the subsequent discussion: Many lack the capacity or expertise to use data strategically. Data is only one component of an overall strategy, Thomas Hutzschenreuter added. Companies also need a monitoring system to understand what they can do with their data. They must also be able to adapt flexibly to change.\n\nBusiness owners therefore need to develop a strategy and make decisions. The panel offered concrete examples from business practice: FIEGE Logistics has a central data repository, known as a data lake, “where we can bring everything together,” Pohlink reported. She emphasized: “Data and AI strategies must be linked to the corporate strategy.”\n\nPohlink also offered an example of how a data-driven strategy and flexible decision-making can work together: FIEGE used a digital twin of a warehouse to investigate how to reduce empty forklift trips. However, discussions with the local team revealed a more pressing need: support in responding to last-minute changes in day-to-day operations. This led to the development of the “Warehouse Assistant,” which analyzes information and suggests adjustments.\n\nMarkus Frank drew a particularly vivid comparison: “We approach KPIs like a soccer team,” said the executive board member of the team sports apparel manufacturer based in Mulfingen in the Hohenlohe region. Inventory data forms the defense, data on strategically important products makes up the midfield, and sales-related data leads the attack. The “meaningless” data sits on the bench. The coach decides which data should play together: “Every manager at our company is a coach,” Frank explained.\n\nThis also entails responsibility for the underlying data. “Managers often need guidance. You have to tell them: Data quality is your responsibility,” Pohlink emphasized. Hutzschenreuter also warned against prematurely discarding seemingly unusable data: “In an uncertain, multipolar world, it is very difficult to know in advance which data will be relevant.” He cited a possible Chinese attack on Taiwan as an example of geopolitical uncertainty.\n\nAdopting AI and Developing Workforce Skills\n\nWhat role can AI play in reducing uncertainty and helping companies take action? And what are the risks of postponing decisions? Fratzscher cited the German automotive industry and Finnish technology company Nokia as cautionary examples. Both, he argued, had been too successful for too long to consider the changes needed for the future and had subsequently been overtaken by developments. “Waiting is simply not an option,” Pohlink agreed. Her priorities were to train all employees to work with AI, identify high-value applications, and address customer needs through innovation.\n\nMastering the technological transformation therefore requires new skills—and, above all, skilled workers, who are in short supply, as Fratzscher emphasized. Continuing education throughout people’s working lives is therefore essential. Frank explained how JAKO stands out in the competition for skilled workers: “We offer a counterbalance through empathy.” Personal interaction and a pleasant working environment, he said, are central to the company’s culture.\n\nHuman Responsibility in the Use of AI\n\nPerhaps these human qualities will become even more important as the AI revolution rapidly advances: “We are only at the very beginning, and we underestimate what developments might lie ahead—especially in combination with other technologies such as quantum computing,” Hutzschenreuter said. Many tasks that people still routinely perform today could eventually be handled entirely by AI.\n\nAn audience member naturally asked whether it was time to move beyond the “human in the loop” concept. Here, however, the panelists agreed: Despite rapid technological progress, responsibility will remain with people. “AI is a tool that people can switch on and off and that has no independent function,” Hutzschenreuter said. Fratzscher emphasized that, despite its potential to automate many tasks, AI also creates new opportunities: “It gives us the chance to focus on what makes us human: empathy and creativity.”\n\nHost Prof. Ali Sunyaev, Vice President TUM Campus Heilbronn, returned to the importance of human judgment in his closing remarks: “Stay human,” he told the audience. He also emphasized the importance of high-quality data and concrete examples of practical applications: “Technologies come and go. In the end, it always comes down to the data. We need large amounts of high-quality data. The economic benefits of a new technology often only become apparent decades later. That is why we need success stories to see what is possible.”\n\nThe next TUM TALK will take place at TUM Campus Heilbronn on October 27, 2027.",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/News/TUM_Talk_2026/tum-campus-heilbronn-news-tum-talk-2026.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "News",
+          "AI Competence"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1010",
+        "title": "TUM Project Week 2027 for Companies",
+        "url": "https://chn.tum.de/stories/news/news-detail/tum-project-week-2027-for-companies",
+        "starts_at": "2026-10-19T07:51:00+02:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "Bringing companies and master’s students at the Technical University of Munich together—that’s what the TUM 1,000+ Project Week in April 2027 is all about. Interdisciplinary teams develop solutions to concrete business challenges. Companies gain fresh perspectives and meet potential future employees. Students from TUM Heilbronn Campus will once again be part of it.",
+        "description": "Bringing companies and master’s students at the Technical University of Munich together—that’s what the TUM 1,000+ Project Week in April 2027 is all about. Interdisciplinary teams develop solutions to concrete business challenges. Companies gain fresh perspectives and meet potential future employees. Students from TUM Heilbronn Campus will once again be part of it.\n\nTUM Students Tackle Business Challenges\n\nThe TUM 1.000+ Project Week will take place for the fourth time in April 2027. During the project week, an interdisciplinary team of five master’s students works on a real-world challenge defined by the participating company. Students can apply their knowledge in practice, while the company gains fresh ideas and innovative approaches to solving its challenge. TUM Campus Heilbronn and a growing number of companies from the Heilbronn-Franken region have participated since the project week began. In the previous edition in April 2026, 4 companies hosted a total of 23 students.\n\nThe experience was very positive for both sides: “It was truly great to have these young, motivated people with us. Their outside perspective was particularly valuable,” says supervisor Kristina Zimmermann, who drives sustainability initiatives in group-wide procurement at BLANC & FISCHER. And TUM student Ahmad Hussainzada, who got a taste of the real world at WITTENSTEIN SE: “I learned something I had never encountered before in lectures. That was a great practical experience.”\n\nBenefits for Companies and Students\n\nFor companies, the project week offers:\n\nFresh perspectives on concrete challenges\n\nDirect exchange with students from different disciplines\n\nInsight into the skills of potential future employees\n\nFor students, the project week offers:\n\nThe opportunity to explore their interests and put their skills into practice\n\nInsights into the working practices and corporate culture of small and medium-sized enterprises\n\nConnections with companies and the opportunity to share their experiences back at TUM\n\nRegistration for TUM Project Week 2027\n\nTeams are assembled from across TUM’s full range of degree programs according to the requirements of each company partner. This creates interdisciplinary collaboration that brings together different academic perspectives. At the closing event at TUM Campus Garching in June 2027, participants will present their project results and share their experiences. Company partners can also expand their networks within TUM.\n\nRegistration for the TUM 1.000+ Project Week 2027 is now open. Interested companies can contact Dr. Thomas Lütkemeier (thomas.luetkemeier(at)tum.de).\n\nStudents can register at https://1000plus.cit.tum.de/, where further information is also available.",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/News/1000_/tum-campus-heilbronn-news-1000-Blanc-Fischer.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "News",
+          "Campus Life"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1008",
+        "title": "Data Strategy Needs Gut Instinct",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/data-strategy-needs-gut-instinct",
+        "starts_at": "2026-10-14T10:23:31+02:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "Business relationships today are more fragile than ever. Global interconnections reinforce the effect of crises and price fluctuations – such as the price of oil – on regional markets. How, then, can long-term strategies for sustainable success be developed? Christine Eckert, Professor of Marketing Analytics at TUM Campus Heilbronn, offers thought-provoking ideas.",
+        "description": "Business relationships today are more fragile than ever. Global interconnections reinforce the effect of crises and price fluctuations – such as the price of oil – on regional markets. How, then, can long-term strategies for sustainable success be developed? Christine Eckert, Professor of Marketing Analytics at TUM Campus Heilbronn, offers thought-provoking ideas.\n\nIn her lectures, she explains the network of relationships of the \"5 Cs\" – Company, Customer, Collaboration, Competitors and Climate. These factors work together and should not be considered in isolation. Central to marketing is the development of sustainable customer relationships. \"When costs fluctuate due to political crises, for example, it is important to predict customer reactions,\" explains Eckert.\n\nFinding the Right Balance\n\nData is essential for this, but how it is used is crucial. On the one hand, data potential remains untapped because software systems in different departments are not interconnected. \"Companies often do not collect data in a targeted manner and thus miss the important connections,\" says the scientist. A 360-degree view of the customer only emerges through improved integration and cross-functional teams.\n\nOn the other hand, decisions also require a good balance between gut feeling and data analysis. Digital twins, for example, can help to simulate consumer behavior, but they also have limits, according to Eckert: \"Digital twins rely on data from the past and are therefore only limited in their ability to respond to unforeseen market upheavals. This limitation should be kept in mind.\"\n\nOut-of-the-Box Thinking\n\nGoing forward, a balanced product portfolio will be needed that explicitly considers risks across the five dimensions of 5C framework: \"Both strategic bets on products with high uncertainty and great potential and reliable cash flow suppliers should be represented in the portfolio to ensure sufficient resilience,\" explains Eckert.\n\n\"Equally important is to have plan B, C or D for different scenarios.\" Because if the competition is more innovative, even the strongest customer loyalty will not help. \"Strategies must be reviewed regularly, and entrepreneurs should remain open to new perspectives and unfamiliar solutions.\"\n\nCustomer Loyalty in the Digital World\n\nIt is precisely at this interface that collaborations between science and business can make a difference. In her most recent study, Eckert examined how innovative features in a fintech company's app and webpage can contribute to long-term customer loyalty – with insights that can also be transferred to other industries.\n\nValue is primarily created when the objectives of the company and its customers are aligned. In order to help customers achieve their goals, they need concrete milestones. \"Without meaningful digital personalization, analogue consulting can hardly be replaced,\" Eckert notes.\n\nDespite the abundance of data, one must not forget that achieving ultimate control over risks is a utopian goal. Markets are in a state of upheaval due to geopolitical conflicts, climate crisis and scarcity of resources. \"In the face of these challenges, it is important not to become paralyzed, but rather to ask: How can we respond in a flexible manner?\"",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/Mindshift_Online/Profs_und_Mitarbeitende/tum-campus-heilbronn-mindshift-Eckert-Christine.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "Magazine Article",
+          "Research"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1006",
+        "title": "Open House at the Bildungscampus",
+        "url": "https://chn.tum.de/stories/news/news-detail/open-house-at-the-bildungscampus",
+        "starts_at": "2026-10-12T12:13:40+02:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "COSMOS Invites You—the TUM Heilbronn Campus Opens Its Doors",
+        "description": "COSMOS Invites You—the TUM Heilbronn Campus Opens Its Doors\n\nUnder the motto “Expand Your Horizons,” COSMOS HN, together with the institutions on the Heilbronn Bildungscampus, is hosting its first open house on Friday, October 16, from 3:00 p.m. to 8:00 p.m. Under the motto “Expand Your Horizons,” the event brings together 25 participating institutions and invites visitors to experience science, research, and education up close.\n\nThe TUM Campus Heilbronn will also be participating and, as part of the “AI in Motion” program, will demonstrate how artificial intelligence connects the digital and physical worlds. Students will showcase innovative projects and solutions to real-world challenges, bringing to life how AI is already impacting our daily lives and the workplace today.\n\nIn addition, there will be two short presentations by TUM researchers at Gravity (Building 11):\n\n• 4:00 p.m.: “Misinformation on Social Media” with Dr. Alida Sara Volkmer\n\n• 6:30 p.m.: “From Internet Searches to Digital Cameras—Where We Encounter Mathematics in Everyday Life” with Prof. Hartwig Anzt\n\nRegistration is not required.",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Who_we_are/Header/tum-campus-heilbronn-drone-bildungscampus.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "News",
+          "Campus Life"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      },
+      {
+        "external_id": "tx-news-1004",
+        "title": "Open Source vs. Open Weight",
+        "url": "https://chn.tum.de/stories/mindshift-online/mindshift-article/open-source-vs-open-weight",
+        "starts_at": "2026-10-12T10:14:22+02:00",
+        "ends_at": null,
+        "all_day": false,
+        "summary": "Open Source and Open Weight are often used interchangeably, but they describe different approaches to AI models. Prof. Alexander Fraser from TUM Campus Heilbronn explains the differences, outlines the strengths and weaknesses of each approach, and shows why Open Weight models are currently the more practical solution for many applications in research and industry.",
+        "description": "Open Source and Open Weight are often used interchangeably, but they describe different approaches to AI models. Prof. Alexander Fraser from TUM Campus Heilbronn explains the differences, outlines the strengths and weaknesses of each approach, and shows why Open Weight models are currently the more practical solution for many applications in research and industry.\n\nWhether it is digital sovereignty, data security, or the transparency of AI models, Open Source and Open Weight models are considered key building blocks of an independent AI infrastructure. Alexander Fraser, Professor of Data Analytics and Statistics at TUM Campus Heilbronn, has been researching different approaches to language models for many years. Why is the distinction between Open Source and Open Weight so important?\n\nUnderstanding the Difference Between Open Source and Open Weight\n\nThe key difference lies in the definition: “In research, we only speak of Open Source if a model can be recreated from scratch.” As a result, Meta’s Llama language models, which are marketed as Open Source and rank among the world's most powerful openly available models, do not actually fall into this category: “We know neither the training data nor the exact steps used to create the models. We can download them and fine-tune them using a specific dataset, but we cannot recreate them from scratch – and that is what we actually mean by Open Source.”\n\nInstead, Llama – like the similarly powerful Qwen models from the Chinese technology company Alibaba Cloud – belongs to the category of Open Weight models, in which the weights –the mathematical representation of the knowledge stored within the model – are publicly available, while the training data remain inaccessible. Open Weight models also offer significant advantages over API models provided as cloud services. “API models such as ChatGPT, Claude, or Gemini are expensive and lack transparency,” Fraser explains. “It is unclear which version of the model is running in the background or when it is updated by the provider. It is a black box. With Open Weight models, on the other hand, you can control which version of the model you are using because you download and run it locally. You can also be sure that the data you enter are not shared with others.” One drawback of many Open Weight models, however, is their lower quality and slower performance – at least when smaller models are run locally on less powerful hardware. In addition, their licensing terms are often highly restrictive.\n\nThis is where genuine Open Source models come into play: “With these models, you can download the training data and train the model yourself. This gives you your own model without being bound by the licensing conditions of an existing one. It also makes it possible to fully trace the sources on which the model was trained because the data are openly available.”\n\nOpen Weight Models Prove Their Value in Practice\n\nIn his own research projects, Fraser uses all three types of models depending on the task at hand: “In one of our current projects, we are investigating how well language models understand metaphors. We’re working on all three levels. However, only with an Open Source model can we inspect the training data and ensure that a particular metaphor does not appear in them.”\n\nThe EPICAL project, which helps speakers of low-resource languages create texts in their native languages with the help of chatbots, primarily relies on Open Weight models. “For low-resource languages such as Upper Sorbian, we can download powerful models for related languages such as German or Czech and then fine-tune them for the target language.” According to Fraser, Open Weight models offer the best compromise for many applications between the limited transparency of API models and the lower performance of today’s Open Source models.\n\nThey are already widely used beyond academia and are particularly well suited for industrial applications: “You can control which information is retrieved and which documents are included in the prompts. A medium-sized company could connect its own private database.”\n\nOpen Source Is Catching Up — But It Will Take Time\n\nOver the coming years, the performance gap between API models and Open Weight models could continue to narrow: “We are gradually running out of easy available textual data on the internet. ChatGPT may already have been trained on a large proportion of all digital text on the world wide web. As a result, Open Weight models could approach ChatGPT’s performance over the next few years – and one day Open Source models as well.”\n\nAccording to Fraser, however, the latter will take at least another five years. Nevertheless, progress is being made: “There are promising initiatives such as the “Open Language Model” (OLMo) from the nonprofit Allen Institute for AI (Ai2), a highly transparent language model whose entire development process is largely traceable and can be extended by others.” He also highlights Apertus, Switzerland’s first large fully Open Source language model and one of the world’s most transparent Large Language Models (LLMs): “It was trained entirely by researchers at the École polytechnique fédérale de Lausanne (EPFL) and ETH Zurich, making it fully reproducible. I can easily imagine using Apertus in teaching and for research projects.”",
+        "image_url": "https://chn.tum.de/fileadmin/chn.tum.de/Stories/Mindshift_Online/Profs_und_Mitarbeitende/tum-campus-heilbronn-mindshift-alexander_fraser.jpg",
+        "registration_url": null,
+        "location": null,
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "Magazine Article",
+          "AI Competence"
+        ],
+        "extra": {
+          "kind": "news"
+        }
+      }
+    ]
+  },
+  {
+    "source": "tum_chn_events",
+    "status": "succeeded",
+    "complete": true,
+    "events_seen": 23,
+    "item_errors": 0,
+    "error_message": null,
+    "events": [
+      {
+        "external_id": "calendarize-event-885",
+        "title": "Exhibition Thomas Mann – In the Burning Landscape of Democracy and AI TO EYE",
+        "url": "https://chn.tum.de/event/event/exhibition-thomas-mann",
+        "starts_at": "2026-11-06T11:30:00+01:00",
+        "ends_at": "2026-12-10T14:00:00+01:00",
+        "all_day": false,
+        "summary": "A joint exhibition by TUM and ETH Zurich at the Bildungscampus Heilbronn (06.11.2026 – 02.12.2026)",
+        "description": "For the first time, the Technical University of Munich and ETH Zurich are jointly presenting the exhibitions Thomas Mann – In the Burning Landscape of Democracy and AI TO EYE at the Bildungscampus Heilbronn.\n\nThomas Mann – In the Burning Landscape of Democracy\n\nDeveloped by the TUM Center for Culture and Arts in collaboration with the Thomas Mann Forum Munich, this exhibition focuses on Thomas Mann’s political and social activism and relates it to the challenges of our time. His speeches and essays bear witness to his commitment to democracy, humanism, and the courageous resistance against National Socialism.\n\nDuring World War II, he addressed his compatriots in regular radio broadcasts on the BBC: “German listeners!” Some of these speeches also reached Germany in the form of leaflets dropped by Royal Air Force aircraft.\nFor the presentation in Heilbronn, the exhibition will be supplemented with content from the Thomas Mann Archive at ETH Zurich. In addition to materials from the archive, a digital research station will allow visitors to explore Thomas Mann’s work and influence in greater depth.\n\nAI TO EYE\n\nWith AI TO EYE, ETH Zurich presents the work of Prof. Robert Riener, an ETH professor and Thomas Mann Fellow. The exhibition explores artificial intelligence and the question of how technological developments are changing our lives, our work, the media, culture, and society.\nFrom a human-centered perspective, it examines the opportunities, challenges, and societal issues surrounding technological change.\n\nTwo Perspectives - One Dual Exhibition\n\nBoth exhibitions stand on their own in terms of content. However, their joint presentation in Heilbronn offers the opportunity to juxtapose different perspectives: the historical examination of democracy and humanism on the one hand, and questions about how to deal with new technologies and their societal consequences on the other.\n\nHistorical situations and current technological developments are not equated here. Points of intersection arise where human responsibility, social change, and the role of science and public debate are concerned.\nThe Bildungscampus Heilbronn provides a shared framework for these events and creates space for exchange between science, technology, culture, and society.\n\nFurther insights beyond the exhibition are provided by the publication Thomas Mann – In der Brandlandschaft der Demokratie. Leben. Politik. Gegenwart. It was developed in cooperation between the TUM Center for Culture and Arts at the Technical University of Munich and the Thomas Mann Forum Munich e.V.\n\nThe publication is available for purchase through the TUM Shop.\n\nIn addition to the exhibition, the publication AI TO EYE by Professor Robert Riener is available. The book explores the impact of artificial intelligence on our society and can be obtained from vdf Hochschulverlag.\n\nParallel to the exhibition, the film “Vaterland”, which also explores the life and legacy of Thomas Mann, will be screened at Arthaus Cinema Heilbronn, Kirchbrunnenstraße 3, Heilbronn.\nScreenings will take place between 8 and 24 November 2026. Further information about the film and screening times can be found at www.kinostar.\n\nThe exhibition is open to visitors Monday to Friday from 11:30 a.m. to 2:00 p.m.\nIn addition, guided tours are available outside regular opening hours.\nTo book a complimentary guided tour (approx. 30-45 minutes), please register here:",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/7/5/csm_tum-campus-heilbronn-thomas-mann_9a49d98f2a.jpg",
+        "registration_url": "https://chn.tum.de/event/event/exhibition-thomas-mann",
+        "location": "Bildungscampus Heilbronn, hip-Turm, Edisonstraße 15, Heilbronn",
+        "organizer": "A joint exhibition by TUM and ETH Zurich at the Bildungscampus Heilbronn",
+        "language": "en",
+        "tags": [
+          "General Public"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/exhibition-thomas-mann?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-517",
+        "title": "Bürger-Uni",
+        "url": "https://chn.tum.de/event/event/buerger-uni-11112026",
+        "starts_at": "2026-11-11T18:30:00+01:00",
+        "ends_at": "2026-11-11T20:00:00+01:00",
+        "all_day": false,
+        "summary": "Since 2015 the Bürger Uni welcomes interested people from the region at the Bildungscampus to participate in lectures about the latest research results. On November 11, 2026. Prof. Dr. Hartwig Anzt will talk about the topic \"Computing for Health and Clima...",
+        "description": "The Bürger-Uni was launched in 2015 with the aim of providing interested citizens with free access to scientific topics. Since 2019, the TUM Heilbronn Campus has been a partner of the events. Here, emphasis is placed on making knowledge and science on current, socially relevant topics, which contain a strong scientific as well as socio-political relevance, accessible to everyone.\n\nThe event is aimed in particular at residents of Heilbronn and people of the region of all ages who are interested in scientific topics.\n\nMore About the Bürger-Uni\n\nRegister now\n\nTake part in the next Bürger-Uni\n\nTopic\nComputing for Health and Climate – How Supercomputers are Changing our Lives\n\nLecturer\nProf. Dr. Hartwig Anzt\n\nRegistration\nYou can register 4 weeks in advance of the event on the website of our co-operation partner Heilbronner Stimme.\n\nProf. Dr. Hartwig Anzt\n\nComputing for Health and Climate – How Supercomputers are Changing our Lives\n\nIn his lecture, Hartwig Anzt takes the audience into the world of high-performance computing and shows how mathematical methods for solving equations are applied in practice, for example in medical simulations or climate predictions.\n\nHartwig Anzt researches on developing and optimizing computational algorithms for scientific high-performance computing. In particular, he focuses on computational linear algebra, iterative and asynchronous methods, Krylov solvers, and preconditioning. The algorithm research is complemented with efforts aiming at sustainable software development in an academic setting, and a healthy software lifecycle. He is the managing lead of the Ginkgo open source math software that is used for scientific high-performance computing applications.\n\nAfter studying mathematics at the Karlsruhe Institute of Technology (KIT), Hartwig Anzt received his doctorate in 2012 on the topic of asynchronous mixed-precision algorithms on GPU architecture. After a postdoc at the University of Tennessee, Hartwig Anzt led a Helmholtz junior research group at KIT. In 2022 he received an appointment as a professor at the University of Tennessee and became director of the Innovative Computing Lab (ICL). Hartwig Anzt has been Chair of Computational Mathematics at TU Munich since 2024.\n\nWatch the entire broadcast of the last Bürger-Uni\n\nPlaylist on YouTube",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/c/4/csm_tum-campus-heilbronn-event-header-buerger-uni_f3a847f518.jpg",
+        "registration_url": "https://www.stimme.de/leben/buergeruni/informationen-buerger-uni-heilbronn-vortrag-referenten-thema-wissenschaft-politik-gesellschaft-psychologie-naturwissenschaft-wetter-sport-art-4472428",
+        "location": "AULA Bildungscampus, Bildungscampus 6, 74076 Heilbronn",
+        "organizer": "COSMOS HN",
+        "language": "en",
+        "tags": [
+          "General Public"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/buerger-uni-11112026?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-773",
+        "title": "Upskill Summit 2026",
+        "url": "https://chn.tum.de/event/event/upskill-summit-2026",
+        "starts_at": "2026-11-12T10:00:00+01:00",
+        "ends_at": "2026-11-12T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Inspiration, dialogue, practical relevance – experience an inspiring day dedicated to continuing professional development in a corporate context at the Upskill Summit in Heilbronn.",
+        "description": "How do we shape continuing professional development in a corporate context to ensure it is fit for the future?\n\nAt the Upskill Summit HN, you can look forward to an inspiring day with practical insights from the worlds of business and academia, innovative approaches and fresh perspectives. Enjoy exciting talks, interactive sessions such as ‘Speed Geeking’, and a wide range of masterclasses – and engage directly with experts and participants from management, HR development, leadership and professional development.\n\nWhen?\n12 November 2026\n10:00 – 17:00 (Check-in from 09:15)\n\nWhere?\nAULA on the Education Campus (Bildungscampus 6, 74076 Heilbronn)\n\nSave the date now and book your place at the Upskill Summit HN well in advance.\nYou can find further details and information on how to register here:\n\nFind out more",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/f/a/csm_tum-campus-heilbronn-event-upskill-summit_f37c4999c9.jpg",
+        "registration_url": null,
+        "location": "AULA, Bildungscampus 6, 74076 Heilbronn",
+        "organizer": "Cosmos HN",
+        "language": "en",
+        "tags": [
+          "Company"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/upskill-summit-2026?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-771",
+        "title": "Statewide Study Information Day 2026",
+        "url": "https://chn.tum.de/event/event/statewide-study-information-day-2026",
+        "starts_at": "2026-11-18T09:30:00+01:00",
+        "ends_at": "2026-11-18T12:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us on November 18, 2026, and get to know our study programs as well as our campus on the statewide study information day. Get ready for an exciting and informative program.",
+        "description": "You can expect an exciting and informative program with presentations and the opportunity to talk to our program managers and current students, who will be happy to answer all your questions.\nFinally, we will show you our beautiful campus during a campus tour.\n\nWe look forward to your visit.\n\nIf you have any questions about Statewise Study Information Day 2026, feel free to reach out at our TUM Campus heilbronn events team at events.hn(at)chn.tum.de.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/9/d/csm_Visual-LW-Studieninfotag-quer_5b27dc0b5d.jpg",
+        "registration_url": "https://chn.tum.de/event/event/statewide-study-information-day-2026",
+        "location": "Conference area, Bildungscampus 6, 74076 Heilbronn",
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "Prospective Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/statewide-study-information-day-2026?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-867",
+        "title": "CEO Leadership Series - Dr. Mark Schneider, Nestlé & Siemens",
+        "url": "https://chn.tum.de/event/event/ceo-leadership-series-dr-mark-schneider-nestle-siemens",
+        "starts_at": "2026-11-18T15:00:00+01:00",
+        "ends_at": "2026-11-18T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us for an exclusive event featuring influential leaders from business, science, politics, and society, including top executives from AEX 25, CAC 40, DAX 40, Dow Jones 30, and SMI 20. Get the opportunity to hear their unique insights and engage in mea...",
+        "description": "The CEO Leadership Series is the flagship event series of the Technical University of Munich (TUM) and takes place at the Heilbronn campus.\n\nThe goal of the event series is to connect top managers with students. The guests first hold a panel discussion and then respond to questions from the students. This gives students the opportunity to learn about the fascinating life and work of successful and renowned managers, and become familiar with different companies.\n\nThe CEO Leadership Series was inaugurated by the former President of Germany and has featured executives from various companies, including public firms that are part of the AEX 25 (Netherlands), CAC 40 (France), DAX 40 (Germany), Dow Jones 30 (USA), and SMI 20 (Switzerland), among others.\n\nPARTICIPATE KNOW MORE",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/8/8/csm_TUM-Campus-Heilbronn-CEO-Leadership-series_faf1b0c202.jpeg",
+        "registration_url": null,
+        "location": "TV50, Bildungscampus 14, 74076 Heilbronn",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "Campus",
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/ceo-leadership-series-dr-mark-schneider-nestle-siemens?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-805",
+        "title": "Master in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-19112026-1",
+        "starts_at": "2026-11-19T15:00:00+01:00",
+        "ends_at": "2026-11-19T16:00:00+01:00",
+        "all_day": false,
+        "summary": "You have finished or will finish a bachelor's degree in Information Engineering or a comparable field soon and are interested in a master's degree following your undergraduate program? Join our virtual info session for the Master in Information Engineerin...",
+        "description": "You are interested in the Master in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session, you'll have the opportunity to gather all the necessary information, ask your individual questions, and learn about the admission process.\n\nTo take part, please register using the form below. You will then receive an email with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/e/5/csm_tum-campus-heilbronn-header-master-in-information-engineering_57b20f84b9.jpg",
+        "registration_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-19112026-1",
+        "location": "online",
+        "organizer": "TUM School Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "MIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-19112026-1?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-891",
+        "title": "Introduction to TUM Library (Heilbronn)",
+        "url": "https://chn.tum.de/event/event/introduction-to-tum-library-heilbronn-3",
+        "starts_at": "2026-11-20T13:00:00+01:00",
+        "ends_at": "2026-11-20T14:00:00+01:00",
+        "all_day": false,
+        "summary": "This session is essential for your academic success, as you will receive an overview of the services available at the TUM Library and how to use them for your studies. Attendance is strongly recommended. Don't miss it! Registration through TUMonline is...",
+        "description": "The university library is the academic information Centre of the Technische Universität München. The services of the TUM Library are complemented by the services of the LIV library at the Bildungscampus Heilbronn.\n\nMs. Bäcker will give a special library presentation for the TUM Campus Heilbronn. The presentation will focus on the following topics:\n\nHow to find books and e-books\n\nHow to find literature databases\n\nFurther services of TUM University Library\n\nIntroduction to TUM Library (Heilbronn)\n\nTUMonline Number: 0000000053\n\nPlease register below:",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/d/2/csm_tum-campus-heilbronn-mimi-what-we-offer-you_eff7cffb0c.jpg",
+        "registration_url": "https://go.tum.de/236355",
+        "location": "Online (Microsoft Teams)",
+        "organizer": "Student Services",
+        "language": "en",
+        "tags": [
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/introduction-to-tum-library-heilbronn-3?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-865",
+        "title": "CEO Leadership Series - Karin Rådström, Daimler Truck",
+        "url": "https://chn.tum.de/event/event/ceo-leadership-series-karin-raadstroem-daimler-truck",
+        "starts_at": "2026-11-20T15:00:00+01:00",
+        "ends_at": "2026-11-20T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us for an exclusive event featuring influential leaders from business, science, politics, and society, including top executives from AEX 25, CAC 40, DAX 40, Dow Jones 30, and SMI 20. Get the opportunity to hear their unique insights and engage in mea...",
+        "description": "The CEO Leadership Series is the flagship event series of the Technical University of Munich (TUM) and takes place at the Heilbronn campus.\n\nThe goal of the event series is to connect top managers with students. The guests first hold a panel discussion and then respond to questions from the students. This gives students the opportunity to learn about the fascinating life and work of successful and renowned managers, and become familiar with different companies.\n\nThe CEO Leadership Series was inaugurated by the former President of Germany and has featured executives from various companies, including public firms that are part of the AEX 25 (Netherlands), CAC 40 (France), DAX 40 (Germany), Dow Jones 30 (USA), and SMI 20 (Switzerland), among others.\n\nPARTICIPATE KNOW MORE",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/8/8/csm_TUM-Campus-Heilbronn-CEO-Leadership-series_faf1b0c202.jpeg",
+        "registration_url": null,
+        "location": "TV50, Bildungscampus 14, 74076 Heilbronn",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "Campus",
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/ceo-leadership-series-karin-raadstroem-daimler-truck?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-863",
+        "title": "CEO Leadership Series - Dr. Thomas Bscher, Bugatti Automobiles",
+        "url": "https://chn.tum.de/event/event/ceo-leadership-series-dr-thomas-bscher-bugatti-automobiles",
+        "starts_at": "2026-11-25T15:00:00+01:00",
+        "ends_at": "2026-11-25T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us for an exclusive event featuring influential leaders from business, science, politics, and society, including top executives from AEX 25, CAC 40, DAX 40, Dow Jones 30, and SMI 20. Get the opportunity to hear their unique insights and engage in mea...",
+        "description": "The CEO Leadership Series is the flagship event series of the Technical University of Munich (TUM) and takes place at the Heilbronn campus.\n\nThe goal of the event series is to connect top managers with students. The guests first hold a panel discussion and then respond to questions from the students. This gives students the opportunity to learn about the fascinating life and work of successful and renowned managers, and become familiar with different companies.\n\nThe CEO Leadership Series was inaugurated by the former President of Germany and has featured executives from various companies, including public firms that are part of the AEX 25 (Netherlands), CAC 40 (France), DAX 40 (Germany), Dow Jones 30 (USA), and SMI 20 (Switzerland), among others.\n\nPARTICIPATE KNOW MORE",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/8/8/csm_TUM-Campus-Heilbronn-CEO-Leadership-series_faf1b0c202.jpeg",
+        "registration_url": null,
+        "location": "TV50, Bildungscampus 14, 74076 Heilbronn",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "Campus",
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/ceo-leadership-series-dr-thomas-bscher-bugatti-automobiles?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-415",
+        "title": "Graduation Ceremony 2026",
+        "url": "https://chn.tum.de/event/event/graduation-ceremony-2026",
+        "starts_at": "2026-11-27T14:00:00+01:00",
+        "ends_at": "2026-11-27T17:30:00+01:00",
+        "all_day": false,
+        "summary": "A special milestone deserves a special celebration: Join us on November 27, 2026, for the graduation ceremony on the TUM Campus Heilbronn.",
+        "description": "An important chapter is ending, and a new one is beginning. Celebrate your graduation together at the Graduation Ceremony on November 27, 2026, at the TUM Campus Heilbronn.\n\nCongratulations!\nYour degree. Your moment. Your graduation.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/7/3/csm_tum-campus-heilbronn-event-header-graduation-2024_db6b4ab2b3.jpg",
+        "registration_url": null,
+        "location": "AULA, Bildungscampus 6, 74076 Heilbronn",
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "Campus"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/graduation-ceremony-2026?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-861",
+        "title": "CEO Leadership Series - Dr. Ilham Kadri, Solvay & Syensqo",
+        "url": "https://chn.tum.de/event/event/ceo-leadership-series-dr-ilham-kadri-solvay-syensqo",
+        "starts_at": "2026-11-27T15:00:00+01:00",
+        "ends_at": "2026-11-27T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us for an exclusive event featuring influential leaders from business, science, politics, and society, including top executives from AEX 25, CAC 40, DAX 40, Dow Jones 30, and SMI 20. Get the opportunity to hear their unique insights and engage in mea...",
+        "description": "The CEO Leadership Series is the flagship event series of the Technical University of Munich (TUM) and takes place at the Heilbronn campus.\n\nThe goal of the event series is to connect top managers with students. The guests first hold a panel discussion and then respond to questions from the students. This gives students the opportunity to learn about the fascinating life and work of successful and renowned managers, and become familiar with different companies.\n\nThe CEO Leadership Series was inaugurated by the former President of Germany and has featured executives from various companies, including public firms that are part of the AEX 25 (Netherlands), CAC 40 (France), DAX 40 (Germany), Dow Jones 30 (USA), and SMI 20 (Switzerland), among others.\n\nPARTICIPATE KNOW MORE",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/8/8/csm_TUM-Campus-Heilbronn-CEO-Leadership-series_faf1b0c202.jpeg",
+        "registration_url": null,
+        "location": "TV50, Bildungscampus 14, 74076 Heilbronn",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "Campus",
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/ceo-leadership-series-dr-ilham-kadri-solvay-syensqo?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-887",
+        "title": "Smart Lunch Break: AI Agents in Action: Providing Knowledge and Setting Boundaries",
+        "url": "https://chn.tum.de/event/event/smart-lunch-break-ai-agents-in-action",
+        "starts_at": "2026-12-01T12:00:00+01:00",
+        "ends_at": "2026-12-01T12:30:00+01:00",
+        "all_day": false,
+        "summary": "As part of the AI TRAQC initiative, this new event series offers monthly insights into key aspects of AI. Topic on December 1, 2026: \"AI Agents in Action: Providing Knowledge and Setting Boundaries\"",
+        "description": "As part of the AI TRAQC initiative, this new event series offers the opportunity to gain exciting insights into various aspects of AI and discuss and analyze them together, once a month.\n\nTopic: AI Agents in Action: Providing Knowledge and Setting Boundaries\n\nExpert: Prof. Dr. Carsten Lanquillon\n\nProgram\n\n12:00 – 12:05 pm\nShort introduction of the AI TRAQC-project\n\n12:05 – 12:20 pm\nAI Agents in Action: Providing Knowledge and Setting Boundaries\nby Prof. Dr. Carsten Lanquillon\n\n12:20 – 12:30 pm\nOpen round for questions\n\nProf. Dr. Carsten Lanquillon\n\nProf. Dr. Carsten Lanquillon is a Research Professor of Language Technologies and Cognitive Assistance Systems at Heilbronn University of Applied Sciences and co-founder of COAI Research. His work focuses on LLM-based multi-agent systems, their use in business, and how people can retain agency and control when working with them.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/9/e/csm_tum-campus-heilbronn-network-header-aitraqc_b951a95d85.jpg",
+        "registration_url": "https://chn.tum.de/event/event/smart-lunch-break-ai-agents-in-action",
+        "location": "online",
+        "organizer": "TUM Campus Heilbronn",
+        "language": "en",
+        "tags": [
+          "General Public"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/smart-lunch-break-ai-agents-in-action?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-815",
+        "title": "Bachelor in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-03122026",
+        "starts_at": "2026-12-03T15:00:00+01:00",
+        "ends_at": "2026-12-03T16:00:00+01:00",
+        "all_day": false,
+        "summary": "Are you interested in the Bachelor in Information Engineering? Then join our virtual info session on December 3, 2026 from 3:00 pm to 4:00 pm (CET).",
+        "description": "You are interested in the Bachelor in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session you'll have the chance to get all the necessary information, ask your individual questions, and get to know the admission process.\n\nTo take part, please register using the form below. You will then receive an e-mail with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/f/a/csm_tum-campus-heilbronn-bachelor-in-information-engineering-header_b52cf71c33.jpg",
+        "registration_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-03122026",
+        "location": "online",
+        "organizer": "TUM School of Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "BIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-03122026?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-859",
+        "title": "CEO Leadership Series - Arthur Höld, PUMA",
+        "url": "https://chn.tum.de/event/event/ceo-leadership-series-arthur-hoeld-puma",
+        "starts_at": "2026-12-16T15:00:00+01:00",
+        "ends_at": "2026-12-16T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us for an exclusive event featuring influential leaders from business, science, politics, and society, including top executives from AEX 25, CAC 40, DAX 40, Dow Jones 30, and SMI 20. Get the opportunity to hear their unique insights and engage in mea...",
+        "description": "The CEO Leadership Series is the flagship event series of the Technical University of Munich (TUM) and takes place at the Heilbronn campus.\n\nThe goal of the event series is to connect top managers with students. The guests first hold a panel discussion and then respond to questions from the students. This gives students the opportunity to learn about the fascinating life and work of successful and renowned managers, and become familiar with different companies.\n\nThe CEO Leadership Series was inaugurated by the former President of Germany and has featured executives from various companies, including public firms that are part of the AEX 25 (Netherlands), CAC 40 (France), DAX 40 (Germany), Dow Jones 30 (USA), and SMI 20 (Switzerland), among others.\n\nPARTICIPATE KNOW MORE",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/8/8/csm_TUM-Campus-Heilbronn-CEO-Leadership-series_faf1b0c202.jpeg",
+        "registration_url": null,
+        "location": "TV50, Bildungscampus 14, 74076 Heilbronn",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "Campus",
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/ceo-leadership-series-arthur-hoeld-puma?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-799",
+        "title": "Master in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-17122026",
+        "starts_at": "2026-12-17T15:00:00+01:00",
+        "ends_at": "2026-12-17T16:00:00+01:00",
+        "all_day": false,
+        "summary": "You have finished or will finish a bachelor's degree in Information Engineering or a comparable field soon and are interested in a master's degree following your undergraduate program? Join our virtual info session for the Master in Information Engineerin...",
+        "description": "You are interested in the Master in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session, you'll have the opportunity to gather all the necessary information, ask your individual questions, and learn about the admission process.\n\nTo take part, please register using the form below. You will then receive an email with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/e/5/csm_tum-campus-heilbronn-header-master-in-information-engineering_57b20f84b9.jpg",
+        "registration_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-17122026",
+        "location": "online",
+        "organizer": "TUM School Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "MIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-17122026?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-817",
+        "title": "Bachelor in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-07012027",
+        "starts_at": "2027-01-07T15:29:00+01:00",
+        "ends_at": "2027-01-07T16:00:00+01:00",
+        "all_day": false,
+        "summary": "Are you interested in the Bachelor in Information Engineering? Then join our virtual info session on January 7, 2027 from 3:00 pm to 4:00 pm (CET).",
+        "description": "You are interested in the Bachelor in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session you'll have the chance to get all the necessary information, ask your individual questions, and get to know the admission process.\n\nTo take part, please register using the form below. You will then receive an e-mail with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/f/a/csm_tum-campus-heilbronn-bachelor-in-information-engineering-header_b52cf71c33.jpg",
+        "registration_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-07012027",
+        "location": "online",
+        "organizer": "TUM School of Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "BIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-07012027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-857",
+        "title": "CEO Leadership Series - Ola Källenius, Mercedes-Benz Group",
+        "url": "https://chn.tum.de/event/event/ceo-leadership-series-ola-kaellenius-mercedes-benz-group",
+        "starts_at": "2027-01-13T15:00:00+01:00",
+        "ends_at": "2027-01-13T17:00:00+01:00",
+        "all_day": false,
+        "summary": "Join us for an exclusive event featuring influential leaders from business, science, politics, and society, including top executives from AEX 25, CAC 40, DAX 40, Dow Jones 30, and SMI 20. Get the opportunity to hear their unique insights and engage in mea...",
+        "description": "The CEO Leadership Series is the flagship event series of the Technical University of Munich (TUM) and takes place at the Heilbronn campus.\n\nThe goal of the event series is to connect top managers with students. The guests first hold a panel discussion and then respond to questions from the students. This gives students the opportunity to learn about the fascinating life and work of successful and renowned managers, and become familiar with different companies.\n\nThe CEO Leadership Series was inaugurated by the former President of Germany and has featured executives from various companies, including public firms that are part of the AEX 25 (Netherlands), CAC 40 (France), DAX 40 (Germany), Dow Jones 30 (USA), and SMI 20 (Switzerland), among others.\n\nPARTICIPATE KNOW MORE",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/8/8/csm_TUM-Campus-Heilbronn-CEO-Leadership-series_faf1b0c202.jpeg",
+        "registration_url": null,
+        "location": "TV50, Bildungscampus 14, 74076 Heilbronn",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "Campus",
+          "Current Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/ceo-leadership-series-ola-kaellenius-mercedes-benz-group?tx_calendarize_calendar%5Bformat%5D=ics&type=1600"
+        }
+      },
+      {
+        "external_id": "calendarize-event-807",
+        "title": "Master in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-21012027",
+        "starts_at": "2027-01-21T15:00:00+01:00",
+        "ends_at": "2027-01-21T16:00:00+01:00",
+        "all_day": false,
+        "summary": "You have finished or will finish a bachelor's degree in Information Engineering or a comparable field soon and are interested in a master's degree following your undergraduate program? Join our virtual info session for the Master in Information Engineerin...",
+        "description": "You are interested in the Master in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session, you'll have the opportunity to gather all the necessary information, ask your individual questions, and learn about the admission process.\n\nTo take part, please register using the form below. You will then receive an email with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/e/5/csm_tum-campus-heilbronn-header-master-in-information-engineering_57b20f84b9.jpg",
+        "registration_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-21012027",
+        "location": "online",
+        "organizer": "TUM School Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "MIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-21012027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-819",
+        "title": "Bachelor in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-04022027",
+        "starts_at": "2027-02-04T15:00:00+01:00",
+        "ends_at": "2027-02-04T16:00:00+01:00",
+        "all_day": false,
+        "summary": "Are you interested in the Bachelor in Information Engineering? Then join our virtual info session on February 4, 2027 from 3:00 pm to 4:00 pm (CET).",
+        "description": "You are interested in the Bachelor in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session you'll have the chance to get all the necessary information, ask your individual questions, and get to know the admission process.\n\nTo take part, please register using the form below. You will then receive an e-mail with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/f/a/csm_tum-campus-heilbronn-bachelor-in-information-engineering-header_b52cf71c33.jpg",
+        "registration_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-04022027",
+        "location": "online",
+        "organizer": "TUM School of Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "BIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-04022027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-809",
+        "title": "Master in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-18022027",
+        "starts_at": "2027-02-18T15:00:00+01:00",
+        "ends_at": "2027-02-18T16:00:00+01:00",
+        "all_day": false,
+        "summary": "You have finished or will finish a bachelor's degree in Information Engineering or a comparable field soon and are interested in a master's degree following your undergraduate program? Join our virtual info session for the Master in Information Engineerin...",
+        "description": "You are interested in the Master in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session, you'll have the opportunity to gather all the necessary information, ask your individual questions, and learn about the admission process.\n\nTo take part, please register using the form below. You will then receive an email with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/e/5/csm_tum-campus-heilbronn-header-master-in-information-engineering_57b20f84b9.jpg",
+        "registration_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-18022027",
+        "location": "online",
+        "organizer": "TUM School Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "MIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-18022027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-821",
+        "title": "Bachelor in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-04032027",
+        "starts_at": "2027-03-04T15:00:00+01:00",
+        "ends_at": "2027-03-04T16:00:00+01:00",
+        "all_day": false,
+        "summary": "Are you interested in the Bachelor in Information Engineering? Then join our virtual info session on March 4, 2027 from 3:00 pm to 4:00 pm (CET).",
+        "description": "You are interested in the Bachelor in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session you'll have the chance to get all the necessary information, ask your individual questions, and get to know the admission process.\n\nTo take part, please register using the form below. You will then receive an e-mail with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/f/a/csm_tum-campus-heilbronn-bachelor-in-information-engineering-header_b52cf71c33.jpg",
+        "registration_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-04032027",
+        "location": "online",
+        "organizer": "TUM School of Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "BIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/bachelor-in-information-engineering-info-session-04032027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-825",
+        "title": "Open Day 2027",
+        "url": "https://chn.tum.de/event/event/open-day-2027",
+        "starts_at": "2027-03-13T10:00:00+01:00",
+        "ends_at": "2027-03-13T15:00:00+01:00",
+        "all_day": false,
+        "summary": "Visit us on March 13, 2027 and get the chance to see the campus as well as our study programs for yourself.",
+        "description": "Come by and\n\nget information at our exhibition stands,\n\ntake part in info sessions about your desired degree program,\n\nget to know the campus on our guided campus tours,\n\nexperience what it's like to study with us at taster lectures andovercome your doubts about lectures in English,\n\nwin great prizes with a spin on our wheel of fortune.\n\nAlways with you: our students, who will tell you first-hand about studying, everyday student life and life in Heilbronn.\n\nOf course, we also welcome your parents, siblings, relatives, or anyone else who would like to join you on campus.\n\n(Admission at 9:30 am)\n\nBachelor's Programs\n\nBachelor in Management & Data Science\n\nTake the lead in a data-driven world and combine management principles with data science techniques.\n\nBachelor in Information Engineering\n\nPair computer science with management and learn how to design interdisciplinary IT systems.\n\nBachelor in Management & Data Science Bachelor in Information Engineering\n\nMaster's Programs\n\nMaster in Management\n\nFor engineers and scientists who aim to enhance their technical expertise with management knowledge.\n\nMaster in Management & Digital Technology\n\nThe consecutive master's program is for everyone who wants to combine his/her knowledge in management and digital technologies to become a digital leader of tomorrow.\n\nMaster in Information Engineering\n\nStarting this year, this is the consecutive master's program for everyone with an undergraduate degree in information engineering, informatics or similar.\n\nMaster in Management\n\nMaster in Management & Digital Technology\n\nMaster in Information Engineering\n\nAbout the TUM Campus Heilbronn\n\nThe TUM Campus Heilbronn is home to just a few hundred students, which makes it its most significant advantage. It creates an environment of belonging and makes it easy for you to meet new people.\n\nAcademic excellence, top-notch facilities, and stunning architecture combine with a truly international student body, as well as the proximity to Heilbronn’s city center and thriving job market. Therefore, you’ll have a one-of-a-kind experience when choosing TUM Campus Heilbronn for your studies and to be your new home.\n\nGetting Here by Train & Bus\n\nBy city bus to \"Europaplatz/Bildungscampus West\" stop (approx. 100m on foot to AULA)\n\nBy city train S41/S42 to \"Theater\" stop (approx. 700m on foot to AULA)\n\nIf you arrive via train at Heilbronn central station, you can take the city train S41/S42 to Theater and walk approx. 700m or the bus lines 1 and 5 to \"Harmonie\" stop and change into the bus lines 5, 31, 32, 41 or 42 and exit at \"Europaplatz/Bildungscampus West\".\n\nGet directions at HNV\n\nGetting Here by Car\n\nWe recommend using the “Parkhaus Mitte” located at Weipertstraße 47/1, 74076 Heilbronn.\n\nAnother parking garage \"Parkhaus Ost\" and parking spaces are located at Dammstraße 1, 74076 Heilbronn.\n\nGet Directions on Google",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/d/e/csm_tum-campus-heilbronn-event-header-open-day-2024_e3a1ad1866.jpg",
+        "registration_url": "https://chn.tum.de/event/event/open-day-2027",
+        "location": "AULA, Bildungscampus",
+        "organizer": null,
+        "language": "en",
+        "tags": [
+          "General Public",
+          "Prospective Students"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/open-day-2027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      },
+      {
+        "external_id": "calendarize-event-811",
+        "title": "Master in Information Engineering - Info Session",
+        "url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-18032027",
+        "starts_at": "2027-03-18T15:00:00+01:00",
+        "ends_at": "2027-03-18T16:00:00+01:00",
+        "all_day": false,
+        "summary": "You have finished or will finish a bachelor's degree in Information Engineering or a comparable field soon and are interested in a master's degree following your undergraduate program? Join our virtual info session for the Master in Information Engineerin...",
+        "description": "You are interested in the Master in Information Engineering at TUM Campus Heilbronn? Don't miss out on the opportunity to learn more about the program from our experts and have your questions answered!\n\nDuring the Info Session, you'll have the opportunity to gather all the necessary information, ask your individual questions, and learn about the admission process.\n\nTo take part, please register using the form below. You will then receive an email with all the information about the info session.",
+        "image_url": "https://chn.tum.de/fileadmin/_processed_/e/5/csm_tum-campus-heilbronn-header-master-in-information-engineering_57b20f84b9.jpg",
+        "registration_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-18032027",
+        "location": "online",
+        "organizer": "TUM School Computation, Information and Technology",
+        "language": "en",
+        "tags": [
+          "Prospective Students",
+          "MIE Info Session"
+        ],
+        "extra": {
+          "ics_url": "https://chn.tum.de/event/event/master-in-information-engineering-info-session-18032027?tx_calendarize_calendar%5Bformat%5D=ics&type=1600",
+          "registration_form_on_page": true
+        }
+      }
+    ]
+  }
+]
